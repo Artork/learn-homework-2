@@ -123,5 +123,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-2_files.py
-3_dict_to_csv.py
+referat.txt
+referat2.txt
+user.csv
+

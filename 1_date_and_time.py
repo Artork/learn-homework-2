@@ -10,7 +10,6 @@
 
 def print_days():
     from datetime import  date, timedelta
-
     dt_today = date.today()
     one_day = timedelta(days=1)
     one_month = timedelta(days=30)
@@ -18,8 +17,6 @@ def print_days():
     print(dt_today)
     print(dt_today-one_month)
     
-
-
 def str_2_datetime(date_string):
     from datetime import datetime
     date_format = "%d/%m/%y %H:%M:%S.%f"
